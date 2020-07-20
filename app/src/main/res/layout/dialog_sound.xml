@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="250dp"
+    android:layout_height="160dp"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SOUND"
+        android:textSize="25dp"
+        android:gravity="center"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="10dp"
+        android:fontFamily="@font/neodgm"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+
+        <TextView
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:text="SOUND EFFECT"
+            android:textStyle="italic"
+            android:id="@+id/txt_sound"
+            android:layout_marginTop="5dp"/>
+
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/sound_on"
+            android:id="@+id/img_sound_on"
+            android:layout_toRightOf="@id/txt_sound"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="9dp"/>
+
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/sound_off"
+            android:id="@+id/img_sound_off"
+            android:layout_toRightOf="@id/txt_sound"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="9dp"
+            android:visibility="invisible"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="BGM"
+            android:textStyle="italic"
+            android:id="@+id/txt_bgm"
+            android:layout_marginTop="13dp"
+            android:layout_toRightOf="@id/img_sound_on"
+            android:layout_marginLeft="20dp"/>
+
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/sound_on"
+            android:id="@+id/img_bgm_on"
+            android:layout_toRightOf="@id/txt_bgm"
+            android:layout_marginLeft="18dp"
+            android:layout_marginTop="9dp"/>
+
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/sound_off"
+            android:id="@+id/img_bgm_off"
+            android:layout_toRightOf="@id/txt_bgm"
+            android:layout_marginLeft="18dp"
+            android:layout_marginTop="9dp"
+            android:visibility="invisible"/>
+
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginTop="5dp">
+
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="40dp"
+            android:text="OK"
+            android:textSize="10dp"
+            android:id="@+id/btn_ok"/>
+
+<!--        <Button-->
+<!--            android:layout_width="100dp"-->
+<!--            android:layout_height="40dp"-->
+<!--            android:text="취소"-->
+<!--            android:textSize="10dp"-->
+<!--            android:id="@+id/btn_cancel"/>-->
+
+    </LinearLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TutorialActivity"
+    android:orientation="vertical"
+    android:background="@drawable/bbaacckk">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    <ImageView
+        android:layout_width="400dp"
+        android:layout_height="550dp"
+        android:src="@drawable/tutorial_1"
+        android:layout_marginTop="60dp"
+        android:layout_centerInParent="true"
+        android:scaleType="fitXY"
+        android:id="@+id/background" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#fff"
+            android:text="안녕하세요. 튜토리얼입니다ㅎㅎ\n잘 보시고 게임을 즐겨 주세요!\n우측 하단의 '튜토리얼 넘기기'를 터치하면\n다음 페이지로 이동합니다!"
+            android:shadowColor="#000"
+            android:shadowDx="5.0"
+            android:shadowDy="5.0"
+            android:shadowRadius="5.0"
+            android:fontFamily="@font/maplebold"
+            android:gravity="center"
+            android:textSize="20dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="300dp"
+            android:visibility="visible"
+            android:id="@+id/tuto_txt1"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#fff"
+            android:text="게임이 시작되면 좌우 아래로 블록을 끌어당겨\n원하는 곳에 배치하세요!\n블록을 위로 끌어당기면 블록이 회전합니다!\n블록으로 꽉 찬 가로줄은 제거되며,\n점수가 오르고 속도가 점점 빨라집니다."
+            android:shadowColor="#000"
+            android:shadowDx="5.0"
+            android:shadowDy="5.0"
+            android:shadowRadius="5.0"
+            android:textSize="20dp"
+            android:layout_marginLeft="10dp"
+            android:fontFamily="@font/maplebold"
+            android:layout_marginTop="280dp"
+            android:gravity="center"
+            android:id="@+id/tuto_txt2"
+            android:visibility="gone"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#fff"
+            android:text="다음에 등장할 블록을 보여주는 공간이에요!\n 보여지는 블록 모양을 생각하며\n현재 블록을 배치하면\n게임을 오래 즐길 수 있으며\n더 많은 코인을 획득할 수 있답니다!"
+            android:shadowColor="#000"
+            android:shadowDx="5.0"
+            android:shadowDy="5.0"
+            android:shadowRadius="5.0"
+            android:textSize="20dp"
+            android:layout_marginLeft="20dp"
+            android:fontFamily="@font/maplebold"
+            android:layout_marginTop="280dp"
+            android:gravity="center"
+            android:id="@+id/tuto_txt3"
+            android:visibility="gone"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#fff"
+            android:text="상점에서 구매한 아이템을\n사용할 수 있어요!\n폭탄 아이템은\n블록 3줄을 없애주고,\n화살표 아이템은\n블록이 내려오는 속도를\n늦춰준답니다.\nX 모양 아이템은\n모든 블록을 없앨 수 있어요!"
+            android:shadowColor="#000"
+            android:shadowDx="5.0"
+            android:shadowDy="5.0"
+            android:shadowRadius="5.0"
+            android:textSize="20dp"
+            android:layout_marginLeft="60dp"
+            android:fontFamily="@font/maplebold"
+            android:layout_marginTop="350dp"
+            android:gravity="center"
+            android:id="@+id/tuto_txt4"
+
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#fff"
+            android:text="튜토리얼이 끝났습니다!\n튜토리얼을 다시 보고 싶지 않으시다면\n좌측 하단의 '다음부터 보지 않기'에 체크한 후\n튜토리얼 끝내기를 눌러 주세요!"
+            android:shadowColor="#000"
+            android:shadowDx="5.0"
+            android:shadowDy="5.0"
+            android:shadowRadius="5.0"
+            android:layout_marginLeft="40dp"
+            android:textSize="20dp"
+            android:fontFamily="@font/maplebold"
+            android:layout_marginTop="280dp"
+            android:gravity="center"
+            android:id="@+id/tuto_txt5"
+            />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_weight="1"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp">
+
+    <CheckBox
+        android:id="@+id/check"
+        android:layout_width="160dp"
+        android:layout_height="35dp"
+        android:text="다음부터 보지 않기"
+        android:textSize="15dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="30dp"
+        android:textColor="#000"
+        android:textStyle="bold"
+        android:background="#aaccccbb"
+        />
+    <Button
+        android:layout_width="140dp"
+        android:layout_height="35dp"
+        android:text="튜토리얼 넘기기"
+        android:textSize="15dp"
+        android:layout_marginTop="10dp"
+        android:id="@+id/end_totu"
+        android:textColor="#000"
+        android:textStyle="bold"
+        android:background="#aaccccbb"
+        />
+    </LinearLayout>
+
+
+
+</LinearLayout>

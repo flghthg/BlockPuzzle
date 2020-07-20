@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="300dp"
+    android:layout_height="200dp"
+    android:background="@drawable/firststartbutton"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#392F2F"
+            android:textStyle="bold"
+            android:layout_marginTop="-25dp"
+            android:text=" Member ID : "
+            android:textSize="20dp"/>
+
+        <EditText
+            android:layout_marginTop="-25dp"
+            android:id="@+id/et_loginId"
+            android:paddingTop="30dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Input your ID"/>
+
+    </LinearLayout>
+
+    <CheckBox
+        android:id="@+id/saveid_check"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Save this ID"
+        android:textColor="#0E0E0E"
+
+        android:layout_marginLeft="73dp"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/btn_login"
+            android:background="@drawable/loginbutton"
+            android:layout_marginTop="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="italic"
+            android:text="LOGIN ✔"/>
+
+        <TextView
+            android:paddingTop="5dp"
+            android:paddingLeft="80dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="If you don't have ID? "
+            android:textColor="#7C2B2B"/>
+
+        <Button
+            android:id="@+id/btn_join"
+            android:background="@drawable/joinbutton"
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="italic"
+            android:text="JOIN US"/>
+    </LinearLayout>
+
+</LinearLayout>

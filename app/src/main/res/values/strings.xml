@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Block Puzzle</string>
+
+    <string name = "kakao_app_key">8ae1ce969a8991157dba65bf3a4f3df4</string>
+    <string name ="kakao_scheme">kakao8ae1ce969a8991157dba65bf3a4f3df4</string>
+    <string name="kakaolink_host">kakaolink</string>
+</resources>

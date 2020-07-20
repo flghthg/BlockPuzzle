@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="300dp"
+    android:layout_height="200dp"
+    android:background="#ECF7F5F5"
+    android:orientation="vertical"
+    >
+    <TextView
+        android:paddingTop="40dp"
+        android:paddingLeft="120dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:text="JOIN ID"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <EditText
+            android:id="@+id/et_joinId"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="input your join id"
+            />
+
+        <Button
+            android:id="@+id/btn_check"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/checkbutton"
+            android:text="check"/>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btn_movelogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/moveloginbtn"
+        android:text="move to login"/>
+
+</LinearLayout>

@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/inven_b"
+        android:orientation="vertical"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_weight="1">
+
+            <FrameLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="25dp"
+                android:layout_marginRight="20dp">
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="110dp"
+                    android:background="#000"
+                    android:enabled="false"
+                    android:id="@+id/btn_1" />
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="0개"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:textColor="#fff"
+                    android:fontFamily="@font/neodgm"
+                    android:background="#00ffffff"
+                    android:layout_gravity="bottom|right"
+                    android:paddingLeft="20dp"
+                    android:paddingTop="20dp"
+                    android:visibility="gone"
+                    android:id="@+id/inven_item1" />
+
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_marginTop="25dp"
+                android:layout_marginRight="20dp">
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="110dp"
+                android:background="#000"
+                android:id="@+id/btn_2"
+                />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="0개"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:textColor="#fff"
+                android:fontFamily="@font/neodgm"
+                android:background="#00ffffff"
+                android:layout_gravity="bottom|right"
+                android:paddingLeft="20dp"
+                android:paddingTop="20dp"
+                android:visibility="gone"
+                android:id="@+id/inven_item2"
+                />
+
+            </FrameLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="20dp"
+            android:layout_weight="1"
+            >
+
+            <FrameLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="25dp"
+                android:layout_marginRight="20dp">
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="110dp"
+                    android:background="#000"
+                    android:enabled="false"
+                    android:id="@+id/btn_3"
+                    />
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="0개"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:textColor="#fff"
+                    android:fontFamily="@font/neodgm"
+                    android:background="#00ffffff"
+                    android:layout_gravity="bottom|right"
+                    android:paddingLeft="20dp"
+                    android:paddingTop="20dp"
+                    android:visibility="gone"
+                    android:id="@+id/inven_item3"
+                    />
+
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_marginTop="25dp"
+                android:layout_marginRight="20dp">
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="110dp"
+                    android:background="#000"
+                    android:id="@+id/btn_4" />
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="0개"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:textColor="#fff"
+                    android:fontFamily="@font/neodgm"
+                    android:background="#00ffffff"
+                    android:layout_gravity="bottom|right"
+                    android:paddingLeft="20dp"
+                    android:paddingTop="20dp"
+                    android:visibility="gone"
+                    android:id="@+id/inven_item4" />
+
+            </FrameLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RankActivity"
+    android:background="@drawable/backrank"
+    android:orientation="vertical">
+
+    <!-- android:id="@+id/easyscore" 레벨별 textview 점수값 넣어주실 부분 id입니당 얘네 빼고는
+     id 다 없어용!!
+     android:id="@+id/normalscore"
+     android:id="@+id/hardscore"
+     -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="50dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="BLOCK PUZZLE"
+            android:textSize="60dp"
+            android:textStyle="bold"
+            android:textColor="#fff"
+            android:fontFamily="@font/neodgm"
+            android:gravity="center"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="⋆⁺ RANK ⋆⁺"
+            android:textSize="70dp"
+            android:textStyle="bold"
+            android:textColor="#E4D33C"
+            android:fontFamily="@font/neodgm"
+            android:gravity="center"
+            android:layout_marginBottom="20dp"/>
+
+
+
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="EASY"
+            android:textStyle="bold"
+            android:background="@drawable/easy_btn"
+            android:layout_marginRight="70dp"
+            android:layout_marginLeft="70dp"
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="▷ 1st Score :"
+                android:textSize="20dp"
+                android:textStyle="italic"
+                android:textColor="#fff"
+                android:layout_marginLeft="80dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="20dp"
+
+
+                />
+            <TextView
+                android:id="@+id/easyscore"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="300"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:textColor="#fff"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="20dp"
+
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="  point ◁"
+                android:textSize="20dp"
+                android:textStyle="italic"
+                android:textColor="#fff"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="20dp"
+
+
+                />
+
+        </LinearLayout>
+
+        <Button
+            android:textStyle="bold"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="NORMAL"
+            android:background="@drawable/normal_btn"
+            android:layout_marginRight="70dp"
+            android:layout_marginLeft="70dp"
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="▷ 1st Score :"
+                android:textSize="20dp"
+                android:textStyle="italic"
+                android:textColor="#fff"
+                android:layout_marginLeft="80dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="20dp"
+
+
+                />
+            <TextView
+                android:id="@+id/normalscore"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="400"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:textColor="#fff"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="20dp"
+
+
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="  point ◁"
+                android:textSize="20dp"
+                android:textStyle="italic"
+                android:textColor="#fff"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="20dp"
+
+
+                />
+
+        </LinearLayout>
+
+
+        <Button
+            android:textStyle="bold"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="HARD"
+            android:background="@drawable/hard_btn"
+            android:layout_marginRight="70dp"
+            android:layout_marginLeft="70dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="▷ 1st Score :"
+                android:textSize="20dp"
+                android:textStyle="italic"
+                android:textColor="#fff"
+                android:layout_marginLeft="80dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="20dp"
+
+
+                />
+
+            <TextView
+                android:id="@+id/hardscore"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="500"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:textColor="#fff"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="20dp"
+
+
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="  point ◁"
+                android:textSize="20dp"
+                android:textStyle="italic"
+                android:textColor="#fff"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="20dp"
+
+
+                />
+
+        </LinearLayout>
+
+
+        <Button
+            android:id="@+id/btn_home"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="-8dp"
+            android:layout_marginLeft="5dp"
+            android:background="@drawable/homebtn"/>
+
+
+
+    </LinearLayout>
+
+</LinearLayout>
