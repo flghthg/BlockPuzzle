@@ -1,0 +1,2 @@
+TetrisProject파일을 이클립스에 import하여 jsp서버를 열어주고
+android studio에 BlockPuzzle파일의 util을 내 컴퓨터 ip와 맞춰준다
